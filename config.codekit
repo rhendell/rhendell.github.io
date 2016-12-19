@@ -134,6 +134,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/wall.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70419,
+		"inputAbbreviatedPath": "\/assets\/wall.png",
+		"outputAbbreviatedPath": "\/assets\/wall.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/css\/style.css": {
 		"fileType": 16,
 		"ignore": 0,
