@@ -59,7 +59,7 @@ h2
 
 .head
 {
-	background-color: #00A59F;
+	background-color: #14aea8;
 }
 
 .menu
@@ -85,9 +85,10 @@ h2
 	font-size: 1.1rem;
 	margin-left: 30px;
 }
-.wall
+
+.img_wall
 {
-	background-image: url('../assets/wall.png');
+	
 }
 
 .logo
@@ -98,7 +99,8 @@ h2
 }
 .personal_description
 {
-	background-color: #00A59F;
+	background-color: #14aea8;
+	margin-top: -3px;
 }
 
 .paragraph_desc
@@ -147,12 +149,14 @@ h2
 
 .what_i_learn
 {
-	background-color: #1390C1; 
+	background-color: #1390C1;
+	flex-wrap: wrap; 
 }
 
 .items_learn
 {
-	
+	display:flex;
+	justify-content: space-around;
 }
 
 .footer
