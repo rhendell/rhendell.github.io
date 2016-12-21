@@ -17,7 +17,9 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	vertical-align: baseline;
 	background: transparent;
 }
-body {
+
+body 
+{
 	line-height: 1;
 }
 ol, ul {
@@ -43,6 +45,9 @@ h2
 {
 	font-size: 1.2rem;
 	color: #ffffff;
+	text-align: center;
+	padding: 40px;
+
 }
 /*END GENERAL*/
 
@@ -96,13 +101,6 @@ h2
 	background-color: #00A59F;
 }
 
-.title_desc 
-{
-	text-align: center;
-	padding-top: 40px;
-
-}
-
 .paragraph_desc
 {
 	color: #ffffff;
@@ -147,9 +145,14 @@ h2
 	background-color: #DF8000;
 }
 
-.what_i_lear
+.what_i_learn
 {
 	background-color: #1390C1; 
+}
+
+.items_learn
+{
+	
 }
 
 .footer
