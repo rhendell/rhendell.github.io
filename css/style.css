@@ -9,7 +9,8 @@ small, strike, strong, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td {
+table, caption, tbody, tfoot, thead, tr, th, td 
+{
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -21,50 +22,77 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 body 
 {
 	line-height: 1;
+	font-family: 'Poppins', sans-serif;
 }
-ol, ul {
+
+ol, ul 
+{
 	list-style: none;
 }
-:focus {
+
+:focus 
+{
 	outline: 0;
 }
-a:focus {
+
+a:focus 
+{
 	outline: 0;
 	text-decoration: none;
 }
-body{
-	font-family: 'Poppins', sans-serif;
-}
-a {
+
+a 
+{
 	text-decoration:none;
 }
-a:hover {
+
+a:hover 
+{
 	text-decoration:none;
 }
+
 h2
 {
 	font-size: 1.2rem;
 	color: #ffffff;
 	text-align: center;
 	padding: 40px;
-
 }
+
+h3
+{
+	color: #ffffff;
+	font-size: 1rem;
+}
+
 /*END GENERAL*/
 
 
 .logo
 {
-	padding: 30px;
+	padding-top: 30px;
+	padding-left: 30px;
+	color: #ffffff;
+	font-size: 1.5rem;
 }
 
 .head
 {
 	background-color: #14aea8;
+	flex-wrap: wrap;
+}
+
+.menu_block
+{
+	display: flex;
+	padding-bottom: 30px;
 }
 
 .menu
 {
 	display: inline-block;
+	margin-left: 300px;
+	margin-top: 30px;
 }
 
 .menu a
@@ -88,19 +116,20 @@ h2
 
 .img_wall
 {
-	
+	width: auto;
+	align-items: center;
 }
 
-.logo
-{
-	color: #ffffff;
-	font-size: 1.5rem;
-
-}
 .personal_description
 {
 	background-color: #14aea8;
 	margin-top: -3px;
+}
+
+.title_desc
+{
+	padding-top: 100px;
+	text-align: center;
 }
 
 .paragraph_desc
@@ -109,8 +138,16 @@ h2
 	line-height: 30px;
 	font-weight: 300;
 	text-align: justify;
-	padding:40px;
-	margin: 60px;
+	padding-top: 50px;
+	padding-left: 300px;
+	padding-right: 300px;
+	margin-bottom: 50px;
+}
+
+.more_description
+{
+	margin-top: 100px;
+	text-align: center;
 }
 
 .paragraph_desc strong
@@ -127,8 +164,10 @@ h2
 
 .social_icons_personal
 {
-	padding-top: 80px;
-	padding-bottom: 10px;
+	padding-top: 150px;
+	padding-bottom: 30px;
+/* 	margin-left: 1200px; */
+
 }
 
 .social_icons_personal img
@@ -139,14 +178,59 @@ h2
 .skills
 {
 	background-color: #1390C1;
+	flex-wrap: wrap;
+}
 
+.all_skillbars
+{
+	display:flex;
+	justify-content: space-around;
+	padding-top: 70px;
+	padding-left: 150px;
+}
+
+.social_icons_abilities
+{
+	padding-top: 100px;
+	padding-bottom: 30px;
 }
 
 .actual_projects
 {
 	background-color: #DF8000;
+	flex-wrap: wrap;
 }
 
+.projects
+{
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: space-around;
+}
+
+.project_desc
+{
+	color: #ffffff;
+	line-height: 30px;
+	font-weight: 300;
+	text-align: justify;
+	padding-top: 50px;
+	padding-left: 200px;
+	padding-right: 600px;
+	margin-bottom: 50px;
+}
+
+.social_icons_ilearn
+{
+	padding-top: 150px;
+	padding-bottom: 30px;
+	margin-left: 1300px;
+}
+
+.social_icons_ilearn img
+{
+	padding: 6px;
+}
 .what_i_learn
 {
 	background-color: #1390C1;
@@ -162,6 +246,7 @@ h2
 .footer
 {
 	background-color: #1390C1;
+	padding-top: 50px;
 
 }
 
@@ -205,8 +290,8 @@ h2
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	background-color: #f5f5f5;
-
 }
+
 .skillst7 .count-bar
 {
 	height: 50%;
@@ -223,14 +308,16 @@ h2
 
 }
 
-.skillst7 .title{
+.skillst7 .title
+{
 	font-size:.7rem;
-	font-weight:400;
+	font-weight:300;
 	padding-left:10px;
 	line-height:23px;
 	text-transform:uppercase;
 	display:inline-block;
 }
+
 .skillst7 .count
 {
 	line-height:20px;
@@ -241,10 +328,12 @@ h2
 
 /*Coustom Media Query Css*/
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) 
+{
 	
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 767px) 
+{
 	
 }
