@@ -1,5 +1,6 @@
 /*GENERAL*/
 @import url(https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet);
+@import url(https://fonts.googleapis.com/css?family=Eczar" rel="stylesheet);
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -73,12 +74,13 @@ h3
 	padding-top: 30px;
 	padding-left: 30px;
 	color: #ffffff;
+	font-family: 'Eczar';
 	font-size: 1.5rem;
 }
 
 .head
 {
-	background-color: #14aea8;
+	background-color: #F7B733;
 	flex-wrap: wrap;
 }
 
@@ -91,14 +93,17 @@ h3
 .menu
 {
 	display: inline-block;
-	margin-left: 300px;
+	margin-left: 400px;
 	margin-top: 30px;
+	font-weight: bold;	
 }
 
 .menu a
 {
 	color: #ffffff;
-	font-size: .9rem;
+	font-size: 1.2rem;
+	font-family: 'Eczar';
+	color: #DE514D;
 }
 
 .menu li 
@@ -109,14 +114,24 @@ h3
 
 .contact_menu
 {
-	color:#7C3951;
-	font-size: 1.1rem;
+	color:#ffffff;
+	font-size: 1.4rem;
 	margin-left: 30px;
+	border-style: none;
+	background: transparent;
+	font-family: 'Eczar';
+	font-weight: bold;
+	border-bottom-width: .3rem;
+	border-bottom-style: solid;
+	border-color: #ffffff;
+	padding-bottom: 1px;
+	margin-left: 60px;
+
 }
 
 .img_wall
 {
-	width: auto;
+	width: 100%;
 	align-items: center;
 }
 
@@ -177,7 +192,7 @@ h3
 
 .skills
 {
-	background-color: #1390C1;
+	background-color: #394DAD;
 	flex-wrap: wrap;
 }
 
@@ -197,9 +212,9 @@ h3
 
 .actual_projects
 {
-	background-color: #DF8000;
+	background-color: #4A368A;
 	flex-wrap: wrap;
-}
+}ss
 
 .projects
 {
@@ -233,7 +248,7 @@ h3
 }
 .what_i_learn
 {
-	background-color: #1390C1;
+	background-color: #DFDCE3;
 	flex-wrap: wrap; 
 }
 
@@ -245,7 +260,7 @@ h3
 
 .footer
 {
-	background-color: #1390C1;
+	background-color: #ffffff;
 	padding-top: 50px;
 
 }
@@ -304,7 +319,7 @@ h3
 	-moz-background-clip: padding;
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
-	background-color: #B0C200;
+	background-color: #F7B733;
 
 }
 
