@@ -68,6 +68,7 @@ h3
 
 /*END GENERAL*/
 
+/* HEAD SECTION */
 
 .logo
 {
@@ -126,82 +127,120 @@ h3
 	border-color: #ffffff;
 	padding-bottom: 1px;
 	margin-left: 60px;
-
 }
+
+/* END OF HEAD SECTION */
+
+/* PRESENTATION IMAGE SECTION */
 
 .img_wall
 {
 	width: 100%;
 	align-items: center;
 }
+/* END OF PRESENTATION IMAGE SECTION */
+
+/* PERSONAL DESCRIPTION SECTION */
+
+.pdescription, .projects, .what_i_learn_sec
+{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content:center;
+	align-items: center;
+	padding-top: 70px;
+}
 
 .personal_description
 {
 	background-color: #14aea8;
 	margin-top: -3px;
-}
-
-.title_desc
-{
-	padding-top: 100px;
 	text-align: center;
 }
 
-.paragraph_desc
+.title_desc h2
+{
+	font-size: 4rem;
+	padding-left: 150px;
+	font-family: 'Eczar';
+}
+
+.paragraph_desc, .project_desc
 {
 	color: #ffffff;
 	line-height: 30px;
 	font-weight: 300;
 	text-align: justify;
 	padding-top: 50px;
-	padding-left: 300px;
-	padding-right: 300px;
+	padding-left: 150px;
+	padding-right: 200px;
 	margin-bottom: 50px;
-}
-
-.more_description
-{
-	margin-top: 100px;
-	text-align: center;
 }
 
 .paragraph_desc strong
 {
 	font-weight: 600;
+	font-family: 'Eczar';
 }
 
-.more_description
+.more_description 
 {
-	color:#ffffff;
-	font-weight: 400;
-
+	padding-top: 30px;
+	margin-left: 750px;
+	text-align: center;
+	font-family:'Eczar';
+	font-weight: 300;
+	font-size: 1.2rem;
+	color: #ffffff;
+	margin-bottom: -60px;
 }
 
-.social_icons_personal
+.social
 {
 	padding-top: 150px;
 	padding-bottom: 30px;
-/* 	margin-left: 1200px; */
-
 }
 
-.social_icons_personal img
+.social img
 {
 	padding: 6px;
 }
 
+/* END OF PERSONAL DESCRIPTION SECTION */
+
+/* SKILL SECTION */
+
+
+.skills h2
+{
+	padding-top: 80px;
+	font-family:'Eczar';
+	font-size: 2rem;
+}
+
+.skills h3
+{
+	font-family:'Eczar';
+	font-weight: 400;
+	text-align: start;
+}
 .skills
 {
 	background-color: #394DAD;
 	flex-wrap: wrap;
+	text-align: center;
 }
 
 .all_skillbars
 {
 	display:flex;
-	justify-content: space-around;
+	flex-flow: row nowrap;
+	justify-content: center;
 	padding-top: 70px;
 	padding-left: 150px;
+	font-family: 'Eczar';
+	margin-bottom: -60px;
+	
 }
 
 .social_icons_abilities
@@ -214,38 +253,32 @@ h3
 {
 	background-color: #4A368A;
 	flex-wrap: wrap;
-}ss
-
-.projects
-{
-	flex-wrap: wrap;
-	display: flex;
-	justify-content: space-around;
 }
 
-.project_desc
+/* END OF SKILL SECTION */
+
+/* ACTUALS PROJECTS SECTION */
+
+.project_desc p
 {
-	color: #ffffff;
-	line-height: 30px;
-	font-weight: 300;
-	text-align: justify;
-	padding-top: 50px;
-	padding-left: 200px;
-	padding-right: 600px;
-	margin-bottom: 50px;
+	margin-bottom: -60px;
 }
 
-.social_icons_ilearn
+.project_desc h3
 {
-	padding-top: 150px;
+	text-align: center;
 	padding-bottom: 30px;
-	margin-left: 1300px;
+	font-family: 'Eczar';
+	font-size: 1.3rem;
+	font-weight: 500;
 }
 
-.social_icons_ilearn img
+.actual_projects
 {
-	padding: 6px;
+	text-align: center;
 }
+
+/* END OF ACTUALS PROJECTS SECTIONS */	
 .what_i_learn
 {
 	background-color: #DFDCE3;
