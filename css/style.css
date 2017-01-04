@@ -101,7 +101,6 @@ h3
 
 .menu a
 {
-	color: #ffffff;
 	font-size: 1.2rem;
 	font-family: 'Eczar';
 	color: #DE514D;
@@ -142,7 +141,7 @@ h3
 
 /* PERSONAL DESCRIPTION SECTION */
 
-.pdescription, .projects, .what_i_learn_sec
+.pdescription, .projects, .what_i_learn_sec, .footer_intern
 {
 	display: flex;
 	flex-flow: row nowrap;
@@ -163,6 +162,8 @@ h3
 	font-size: 4rem;
 	padding-left: 150px;
 	font-family: 'Eczar';
+	line-height: 80px;
+	
 }
 
 .paragraph_desc, .project_desc
@@ -201,9 +202,10 @@ h3
 	padding-bottom: 30px;
 }
 
-.social img
+.social img, .social_footer img
 {
 	padding: 6px;
+
 }
 
 /* END OF PERSONAL DESCRIPTION SECTION */
@@ -255,50 +257,8 @@ h3
 	flex-wrap: wrap;
 }
 
-/* END OF SKILL SECTION */
-
-/* ACTUALS PROJECTS SECTION */
-
-.project_desc p
-{
-	margin-bottom: -60px;
-}
-
-.project_desc h3
-{
-	text-align: center;
-	padding-bottom: 30px;
-	font-family: 'Eczar';
-	font-size: 1.3rem;
-	font-weight: 500;
-}
-
-.actual_projects
-{
-	text-align: center;
-}
-
-/* END OF ACTUALS PROJECTS SECTIONS */	
-.what_i_learn
-{
-	background-color: #DFDCE3;
-	flex-wrap: wrap; 
-}
-
-.items_learn
-{
-	display:flex;
-	justify-content: space-around;
-}
-
-.footer
-{
-	background-color: #ffffff;
-	padding-top: 50px;
-
-}
-
 /*SKILLS BARS*/
+
 .wraper
 {
 	width:470px;
@@ -353,7 +313,6 @@ h3
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	background-color: #F7B733;
-
 }
 
 .skillst7 .title
@@ -373,6 +332,112 @@ h3
 	font-weight:300;
 	display:inline-block;
 }
+
+/* END OF SKILL SECTION */
+
+/* ACTUALS PROJECTS SECTION */
+
+.projects
+{
+	padding-top: 1px;
+}
+
+.projects h2
+{
+	margin-top: 150px;
+}
+
+.project_desc p
+{
+	margin-bottom: -60px;
+}
+
+.project_desc h3
+{
+	text-align: center;
+	padding-bottom: 30px;
+	font-family: 'Eczar';
+	font-size: 1.3rem;
+	font-weight: 500;
+}
+
+.actual_projects
+{
+	text-align: center;
+}
+
+/* END OF ACTUALS PROJECTS SECTIONS */	
+
+/* WHAT I LEAR SECTION */
+
+.what_i_learn
+{
+	background-color: #DFDCE3;
+	flex-wrap: wrap; 
+}
+
+.items_learn
+{
+	margin-bottom: 50px;
+}
+
+.what_i_learn_sec h2
+{	
+	color: #4A4A4A;
+	padding-top: 1px;
+}
+
+.items_learn h3
+{
+	font-family: 'Eczar';
+	font-size: 3rem;
+	color: #DE514D;
+	margin-bottom: 30px;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+/* END OF WHAT I LEARN SECTION */
+
+/* FOOTER */
+
+.footer_intern
+{
+	background-color: #ffffff;
+	padding-top: 50px;
+	al
+}
+
+.footer h3
+{
+	font-family: 'Eczar';
+	color: #DE514D;
+	font-size: 1.5rem;
+}
+
+.footer p
+{
+	color: #4A4A4A;
+}
+
+.footer_g_1, .footer_g_2, .footer_g_3
+{
+	margin: auto;
+	text-align: center;
+}
+
+.maps
+{
+	color: #DE514D;
+}
+.social_footer
+{
+	padding-top: 15px;
+}
+
+/* END OF FOOTER SECTION */ 
+
+
 
 /*Coustom Media Query Css*/
 
