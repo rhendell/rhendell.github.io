@@ -184,10 +184,10 @@ h3
 	font-family: 'Eczar';
 }
 
-.more_description 
+.more_description a
 {
 	padding-top: 30px;
-	margin-left: 750px;
+	margin-left: 700px;
 	text-align: center;
 	font-family:'Eczar';
 	font-weight: 300;
@@ -405,14 +405,15 @@ h3
 {
 	background-color: #ffffff;
 	padding-top: 50px;
-	al
+	padding-bottom: 30px;
 }
 
-.footer h3
+.footer_intern h3
 {
 	font-family: 'Eczar';
 	color: #DE514D;
 	font-size: 1.5rem;
+	margin-bottom: 10px;
 }
 
 .footer p
@@ -424,16 +425,40 @@ h3
 {
 	margin: auto;
 	text-align: center;
+	line-height: 23px;
+	margin-top: 0px;
+}
+
+.maps a
+{
+	color: #DE514D;
+	font-family: 'Eczar';
+	font-size: 1.2rem;
 }
 
 .maps
 {
-	color: #DE514D;
+	margin-top: 25px;
 }
+
 .social_footer
 {
 	padding-top: 15px;
 }
+
+.email_contact
+{
+	margin-top: 15px;
+	align-items: flex-start;
+	
+
+}
+
+.email_contact textarea
+{
+	border-radius: 15px;
+}
+
 
 /* END OF FOOTER SECTION */ 
 
