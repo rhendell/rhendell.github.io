@@ -1,4 +1,17 @@
 /*GENERAL*/
+
+
+/**
+  * Centers and gives a max-width with the $pagemaxwidth variable value..
+  */
+.max-width 
+{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+  width: 100%;
+}
+
 @import url(https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet);
 @import url(https://fonts.googleapis.com/css?family=Eczar" rel="stylesheet);
 
@@ -141,7 +154,7 @@ h3
 
 /* PERSONAL DESCRIPTION SECTION */
 
-.pdescription, .projects, .what_i_learn_sec, .footer_intern, .devinciwork_block
+.pdescription, .projects, .what_i_learn_sec, .footer_intern, .devinciwork_block, .stambul_block, .mbmstudio_block, .arts_block, .usabilidad_skill
 {
 	display: flex;
 	flex-flow: row nowrap;
@@ -157,7 +170,7 @@ h3
 	text-align: center;
 }
 
-.title_desc h2, .devinciwork_title h2
+.title_desc h2, .devinciwork_title h2, .stambul_title h2, .mbmstudio_title h2, .arts_title h2, .cirsa_title h2, .cantv_title h2
 {
 	font-size: 4rem;
 	padding-left: 150px;
@@ -167,7 +180,7 @@ h3
 	
 }
 
-.paragraph_desc, .project_desc, .paragraph_3, .devinciwork_paragraph
+.paragraph_desc, .project_desc, .paragraph_3, .devinciwork_paragraph, .stambul_paragraph, .mbmstudio_paragraph, .arts_paragraph, .cirsa_paragraph, .cantv_paragraph
 {
 	color: #ffffff;
 	line-height: 30px;
@@ -232,19 +245,23 @@ h3
 	background-color: #394DAD;
 	flex-wrap: wrap;
 	text-align: center;
+
 }
 
-.all_skillbars
+.skills-items li
 {
-	display:flex;
-	flex-flow: row nowrap;
-	justify-content: center;
-	padding-top: 70px;
-	padding-left: 150px;
-	font-family: 'Eczar';
-	margin-bottom: -60px;
-	
+	color: #ffffff;
+	line-height: 30px;
+	font-weight: 300;
+	text-align: start;
+	list-style: disc;
 }
+
+.skills-items li.space
+{
+ color: #394DAD;
+}
+
 
 .social_icons_abilities
 {
@@ -252,82 +269,11 @@ h3
 	padding-bottom: 30px;
 }
 
-
-/*SKILLS BARS*/
-
-.wraper
+.skill_sec
 {
-	width:470px;
-	margin:50px auto;
+
 }
 
-.wraper:before,
-.wraper:after 
-{
-  display: table;
-  content: " ";
-}
-
-.wraper:after
-{
-  clear: both;
-}
-
-/* Skills Style 7 */
-
-.skillst7
-{
-	width:100%;
-	color:#fff;
-}
-
-.skillst7 .skillbar
-{
-	width: 60%;
-	height: 22px;
-	position:relative;
-	margin-bottom:25px;
-	-moz-border-radius: 20px;
-	-webkit-border-radius: 20px;
-	border-radius: 20px;
-	-moz-background-clip: padding;
-	-webkit-background-clip: padding-box;
-	background-clip: padding-box;
-	background-color: #f5f5f5;
-}
-
-.skillst7 .count-bar
-{
-	height: 50%;
-	width:0px;
-	position:relative;
-	height: 22px;
-	-moz-border-radius: 20px 0 0 20px;
-	-webkit-border-radius: 20px 0 0 20px;
-	border-radius: 20px 0 0 20px;
-	-moz-background-clip: padding;
-	-webkit-background-clip: padding-box;
-	background-clip: padding-box;
-	background-color: #F7B733;
-}
-
-.skillst7 .title
-{
-	font-size:.7rem;
-	font-weight:300;
-	padding-left:10px;
-	line-height:23px;
-	text-transform:uppercase;
-	display:inline-block;
-}
-
-.skillst7 .count
-{
-	line-height:20px;
-	font-size:.7rem;
-	font-weight:300;
-	display:inline-block;
-}
 
 /* END OF SKILL SECTION */
 
@@ -349,9 +295,14 @@ h3
 	margin-top: 150px;
 }
 
+.project_desc
+{
+	margin-top: 125px;
+}
+
 .project_desc p
 {
-	margin-bottom: -60px;
+	margin-bottom: -50px;
 }
 
 .project_desc h3
@@ -368,7 +319,9 @@ h3
 	text-align: center;
 }
 
-/* END OF ACTUALS PROJECTS SECTIONS */	
+/* END OF ACTUALS PROJECTS SECTIONS */
+
+
 
 /* WHAT I LEAR SECTION */
 
@@ -521,7 +474,7 @@ h3
 	margin-top: 50px;
 }
 
-.paragraph_3, .devinciwork_paragraph
+.paragraph_3, .devinciwork_paragraph, .mbmstudio_paragraph
 {
 	padding-left: 20px;
 	padding-right: 100px
@@ -559,10 +512,11 @@ h3
 
 .paragraph_works
 {
-	padding-left: 300px;
-	padding-right: 300px;
+	padding-left: 350px;
+	padding-right: 350px;
 	padding-bottom: 50px;
 	line-height: 23px;
+	text-align: justify;
 	color: #ffffff;	
 }
 
@@ -570,6 +524,7 @@ h3
 {
 	 padding-top: 30px;
 }
+
 
 .devinciwork
 {
@@ -583,29 +538,112 @@ h3
 
 }
 
-.devinciwork_title
+.devinciwork_title, .mbmstudio_title
 {
-	text-align: center;
 	color: #ffffff;
+	margin-left: -40px;
+	margin-right: 30px;
 }
 
-.devinciwork_title h4
+.devinciwork_title h4, .stambul_title h4, .mbmstudio_title h4, .arts_title h4, .cirsa_title h4
 {
-	margin-top: -40px
+	margin-top: -50px;
+	font-weight: 200;
+}
+
+.devinciwork_title h4, .mbmstudio_title h4
+{
+	margin-left: 230px;
+}
+
+.devinciwork_paragraph p 
+{
+	padding-bottom: 20px;
+}
+
+.stambul
+{
+	background-color: #4A368A;
+}
+
+.stambul_paragraph, .arts_paragraph
+{
+	padding-left: 100px;
+	padding-right: 20px;
+}
+
+.stambul_title
+{
+	padding-right: 60px;
+	margin-left: 0px;
+}
+
+.stambul_title h4, .arts_title h4, .cirsa_title h4
+{
+	color: #ffffff;
+	padding-left: 230px;
+}
+
+.mbmstudio, .arts
+{
+	background-color: #F7B733;
+}
+
+.mbmstudio
+{
+	margin-bottom: -20px;
+}
+
+.mbmstudio_title
+{
+	margin-left: 100px;
+	padding-left: 20px; 
+}
+
+.arts_title
+{
+	margin-right: 70px;
+	margin-top: -60px;
+}
+
+.arts_title h4
+{
+	margin-left: 20px;
+}
+
+.cirsa
+{
+	background-color: #00A59F;
+
+}
+
+.cirsa_paragraph
+{
+	margin-bottom: 10px;
+	padding-bottom: 100px;
+
+}
+
+.cirsa_title h4
+{
+	align-items: center;
+}
+
+.cantv
+{
+	background-color: #DFDCE3;
+}
+.cantv_title
+{
+	color: #4A4A4A;
+}
+
+.cantv_paragraph
+{
+	color: #4A4A4A;
 }
 
 /*END OF WORKS PAGE SECTION*/
-
-
-
 /*Coustom Media Query Css*/
 
-@media only screen and (min-width: 768px) and (max-width: 991px) 
-{
-	
-}
-
-@media only screen and (max-width: 767px) 
-{
-	
 }
