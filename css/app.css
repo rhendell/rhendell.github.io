@@ -21,6 +21,7 @@ body
     font-weight: 800;
     margin-top: 100px;
     font-size: 64px;
+    padding-bottom: 10px;
 }
 
 .interaction1
@@ -30,6 +31,10 @@ body
     font-weight: 600;
 }
 
+.posttitle
+{
+    margin-bottom: 30px;
+}
 .button.hollow
 {
     border: 2px solid #4A4A4A;
@@ -60,5 +65,5 @@ body
 
 .accordion-title
 {
-    background-color: #4A4A4A ;
+    background-color: #fffff;
 }
