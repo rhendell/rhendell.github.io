@@ -19,7 +19,7 @@ body
 {
     color: #4A4A4A;
     font-weight: 800;
-    margin-top: 100px;
+    margin-top: 50px;
     font-size: 64px;
     padding-bottom: 10px;
 }
@@ -66,4 +66,5 @@ body
 .accordion-title
 {
     background-color: #fffff;
+    color: #4A4A4A;
 }
