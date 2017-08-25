@@ -68,3 +68,9 @@ body
     background-color: #fffff;
     color: #4A4A4A;
 }
+
+.paragraph
+{
+    text-align: left;
+    line-height: 175%;
+}
